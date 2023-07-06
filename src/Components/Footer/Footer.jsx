@@ -1,6 +1,29 @@
 import { Container } from '../Layout/Container/Container';
 import cn from 'classnames';
 import style from './Footer.module.scss';
+import { NavLink }  from 'react-router-dom';
+
+const list = [
+  {
+    link: "women",
+    title: "Женщины",
+    categories: [
+        { link: 'bra', title: 'Бюстгалтеры' },
+        { link: 'panties', title: 'Трусы' },
+        { link: 'socks', title: 'Носки' },
+        { link: 'bathrobes', title: 'Халаты' },
+        { link: 'thermal', title: 'Термобелье' },
+        { link: 'pijamas', title: 'Пижамы' },
+    ]},
+    { link: "men",
+      title: "Мужчины",
+      categories: [
+        { link: 'panties', title: 'Трусы' },
+        { link: 'socks', title: 'Носки' },
+        { link: 'bathrobes', title: 'Халаты' },
+        { link: 'thermal', title: 'Термобелье' },
+      ]}
+];
 
 export const Footer = () => {
   return (
@@ -8,7 +31,29 @@ export const Footer = () => {
         <Container>
           <div className={style.container}>
             <div className={style.category}>
-              <h2 className={cn(style.title, style.categoryTitle)}>Каталог</h2>
+              <h2 className={cn(style.title, style.title)}>Каталог</h2>
+
+              <ul className={style.list}>
+                {list.map((item) => (
+                  <li key={item.link} className={style.categoryItem}>
+                    <h3 className={style.subtitle}>
+                      <NavLink to={item.link} className={style.link}>
+                        {item.title}
+                      </NavLink>
+                    </h3>
+
+                    <ul className={style.sublist}>
+                      {item.categories.map(category => (
+                        <li key={category.link}>
+                          <NavLink className={style.link} to={`${item.link}/${category.link}`}>
+                            {category.title}
+                          </NavLink>
+                        </li>                     
+                      ))}
+                    </ul>
+                  </li>
+                ))}
+              </ul>
             </div>
        
 
@@ -52,7 +97,7 @@ export const Footer = () => {
                 </li>
                 <li className={style.developmentItem}>
                   Developer: 
-                  <a className={style.link}  href="https://t.me/alexboagreek"></a>Aleksandr Sourkov
+                  <a className={style.link}  href="https://t.me/alexboagreek">Aleksandr Sourkov</a>
                 </li>
             </ul>
           </div>
