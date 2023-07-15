@@ -1,0 +1,11 @@
+// vite.config.js
+import { defineConfig } from "file:///C:/Users/%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%20%D0%93%D1%80%D0%B5%D0%BA/Desktop/inspired/node_modules/vite/dist/node/index.js";
+import react from "file:///C:/Users/%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%20%D0%93%D1%80%D0%B5%D0%BA/Desktop/inspired/node_modules/@vitejs/plugin-react/dist/index.mjs";
+import viteSvgr from "file:///C:/Users/%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%20%D0%93%D1%80%D0%B5%D0%BA/Desktop/inspired/node_modules/vite-plugin-svgr/dist/index.js";
+var vite_config_default = defineConfig({
+  plugins: [react(), viteSv]
+});
+export {
+  vite_config_default as default
+};
+//# sourceMappingURL=data:application/json;base64,ewogICJ2ZXJzaW9uIjogMywKICAic291cmNlcyI6IFsidml0ZS5jb25maWcuanMiXSwKICAic291cmNlc0NvbnRlbnQiOiBbImNvbnN0IF9fdml0ZV9pbmplY3RlZF9vcmlnaW5hbF9kaXJuYW1lID0gXCJDOlxcXFxVc2Vyc1xcXFxcdTA0MTBcdTA0M0JcdTA0MzVcdTA0M0FcdTA0NDFcdTA0MzBcdTA0M0RcdTA0MzRcdTA0NDAgXHUwNDEzXHUwNDQwXHUwNDM1XHUwNDNBXFxcXERlc2t0b3BcXFxcaW5zcGlyZWRcIjtjb25zdCBfX3ZpdGVfaW5qZWN0ZWRfb3JpZ2luYWxfZmlsZW5hbWUgPSBcIkM6XFxcXFVzZXJzXFxcXFx1MDQxMFx1MDQzQlx1MDQzNVx1MDQzQVx1MDQ0MVx1MDQzMFx1MDQzRFx1MDQzNFx1MDQ0MCBcdTA0MTNcdTA0NDBcdTA0MzVcdTA0M0FcXFxcRGVza3RvcFxcXFxpbnNwaXJlZFxcXFx2aXRlLmNvbmZpZy5qc1wiO2NvbnN0IF9fdml0ZV9pbmplY3RlZF9vcmlnaW5hbF9pbXBvcnRfbWV0YV91cmwgPSBcImZpbGU6Ly8vQzovVXNlcnMvJUQwJTkwJUQwJUJCJUQwJUI1JUQwJUJBJUQxJTgxJUQwJUIwJUQwJUJEJUQwJUI0JUQxJTgwJTIwJUQwJTkzJUQxJTgwJUQwJUI1JUQwJUJBL0Rlc2t0b3AvaW5zcGlyZWQvdml0ZS5jb25maWcuanNcIjtpbXBvcnQgeyBkZWZpbmVDb25maWcgfSBmcm9tICd2aXRlJztcbmltcG9ydCByZWFjdCBmcm9tICdAdml0ZWpzL3BsdWdpbi1yZWFjdCc7XG5pbXBvcnQgdml0ZVN2Z3IgZnJvbSAndml0ZS1wbHVnaW4tc3Zncic7XG5cbi8vIGh0dHBzOi8vdml0ZWpzLmRldi9jb25maWcvXG5leHBvcnQgZGVmYXVsdCBkZWZpbmVDb25maWcoe1xuICBwbHVnaW5zOiBbcmVhY3QoKSwgdml0ZVN2XSxcbn0pXG4iXSwKICAibWFwcGluZ3MiOiAiO0FBQXVYLFNBQVMsb0JBQW9CO0FBQ3BaLE9BQU8sV0FBVztBQUNsQixPQUFPLGNBQWM7QUFHckIsSUFBTyxzQkFBUSxhQUFhO0FBQUEsRUFDMUIsU0FBUyxDQUFDLE1BQU0sR0FBRyxNQUFNO0FBQzNCLENBQUM7IiwKICAibmFtZXMiOiBbXQp9Cg==
